@@ -1,5 +1,5 @@
 html {
-  background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background-image: url(background.jpg);
   background-size: cover;
   font-family: "helvetica neue";
   text-align: center;
@@ -18,13 +18,14 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
-  border-radius: 50%;
+  border: 25px solid #c2a88f;
+  border-radius: 40%;
   margin: 50px auto;
   position: relative;
   padding: 2rem;
-  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
-    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 0 4px rgba(249, 180, 45, 0.1),
+    inset 0 0 0 3px rgba(249, 180, 45, 0.1), inset 0 0 10px black,
+    0 0 10px rgba(249, 180, 45, 0.3);
 }
 
 .clock-face {
